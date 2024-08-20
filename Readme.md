@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new worldholidaysQueryOptions {
+var queryOptions = new WorldHolidaysQueryOptions {
   country = "US",
   year = 2024
 };
@@ -260,7 +260,8 @@ if(response.error != null) {
         "type": "observance"
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
