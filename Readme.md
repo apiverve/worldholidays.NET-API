@@ -72,7 +72,7 @@ Using the API client, you can perform requests to the API.
 ```
 var queryOptions = new WorldHolidaysQueryOptions {
   country = "US",
-  year = 2024
+  year = 2025
 };
 ```
 
