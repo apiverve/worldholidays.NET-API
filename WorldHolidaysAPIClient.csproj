@@ -4,7 +4,7 @@
     <TargetFrameworks>net20;net35;net40;net45;netstandard2.0;netstandard2.1;net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>APIVerve.API.WorldHolidays</Title>
-    <Version>1.1.5</Version>
+    <Version>1.1.6</Version>
     <Authors>APIVerve</Authors>
     <Company>APIVerve</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -18,7 +18,7 @@
     <RepositoryUrl>https://github.com/apiverve/worldholidays.NET-API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>world holidays; world holidays api; world holidays tool; world holidays software; world holidays service</PackageTags>
-    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+    <Copyright>©2025 APIVerve. All Rights Reserved</Copyright>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <PackageIcon>favicon@128.png</PackageIcon>
     <BaseOutputPath>.\bin</BaseOutputPath>
