@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.WorldHolidays".
-5. Click on the APIVerve.API.WorldHolidays package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.WorldHolidays package, click Install.
 
 
 ---
@@ -96,166 +96,159 @@ if(response.error != null) {
   "error": null,
   "data": {
     "country": "US",
-    "year": "2024",
+    "year": "2025",
     "holidays": [
       {
-        "date": "2024-01-01 00:00:00",
-        "start": "2024-01-01T05:00:00Z",
-        "end": "2024-01-02T05:00:00Z",
+        "date": "2025-01-01 00:00:00",
+        "start": "2025-01-01T05:00:00Z",
+        "end": "2025-01-02T05:00:00Z",
         "name": "New Year's Day",
         "type": "public"
       },
       {
-        "date": "2024-01-15 00:00:00",
-        "start": "2024-01-15T05:00:00Z",
-        "end": "2024-01-16T05:00:00Z",
+        "date": "2025-01-20 00:00:00",
+        "start": "2025-01-20T05:00:00Z",
+        "end": "2025-01-21T05:00:00Z",
         "name": "Martin Luther King Jr. Day",
         "type": "public"
       },
       {
-        "date": "2024-02-14 00:00:00",
-        "start": "2024-02-14T05:00:00Z",
-        "end": "2024-02-15T05:00:00Z",
+        "date": "2025-02-14 00:00:00",
+        "start": "2025-02-14T05:00:00Z",
+        "end": "2025-02-15T05:00:00Z",
         "name": "Valentine's Day",
         "type": "observance"
       },
       {
-        "date": "2024-02-19 00:00:00",
-        "start": "2024-02-19T05:00:00Z",
-        "end": "2024-02-20T05:00:00Z",
+        "date": "2025-02-17 00:00:00",
+        "start": "2025-02-17T05:00:00Z",
+        "end": "2025-02-18T05:00:00Z",
         "name": "Washington's Birthday",
         "type": "public"
       },
       {
-        "date": "2024-03-17 00:00:00",
-        "start": "2024-03-17T04:00:00Z",
-        "end": "2024-03-18T04:00:00Z",
+        "date": "2025-03-17 00:00:00",
+        "start": "2025-03-17T04:00:00Z",
+        "end": "2025-03-18T04:00:00Z",
         "name": "St. Patrick's Day",
         "type": "observance"
       },
       {
-        "date": "2024-03-31 00:00:00",
-        "start": "2024-03-31T04:00:00Z",
-        "end": "2024-04-01T04:00:00Z",
-        "name": "Easter Sunday",
-        "type": "observance"
-      },
-      {
-        "date": "2024-04-15 00:00:00",
-        "start": "2024-04-15T04:00:00Z",
-        "end": "2024-04-16T04:00:00Z",
+        "date": "2025-04-15 00:00:00",
+        "start": "2025-04-15T04:00:00Z",
+        "end": "2025-04-16T04:00:00Z",
         "name": "Tax Day",
         "type": "observance"
       },
       {
-        "date": "2024-04-24 00:00:00",
-        "start": "2024-04-24T04:00:00Z",
-        "end": "2024-04-25T04:00:00Z",
+        "date": "2025-04-20 00:00:00",
+        "start": "2025-04-20T04:00:00Z",
+        "end": "2025-04-21T04:00:00Z",
+        "name": "Easter Sunday",
+        "type": "observance"
+      },
+      {
+        "date": "2025-04-23 00:00:00",
+        "start": "2025-04-23T04:00:00Z",
+        "end": "2025-04-24T04:00:00Z",
         "name": "Administrative Professionals Day",
         "type": "observance"
       },
       {
-        "date": "2024-05-12 00:00:00",
-        "start": "2024-05-12T04:00:00Z",
-        "end": "2024-05-13T04:00:00Z",
+        "date": "2025-05-11 00:00:00",
+        "start": "2025-05-11T04:00:00Z",
+        "end": "2025-05-12T04:00:00Z",
         "name": "Mother's Day",
         "type": "observance"
       },
       {
-        "date": "2024-05-27 00:00:00",
-        "start": "2024-05-27T04:00:00Z",
-        "end": "2024-05-28T04:00:00Z",
+        "date": "2025-05-26 00:00:00",
+        "start": "2025-05-26T04:00:00Z",
+        "end": "2025-05-27T04:00:00Z",
         "name": "Memorial Day",
         "type": "public"
       },
       {
-        "date": "2024-06-16 00:00:00",
-        "start": "2024-06-16T04:00:00Z",
-        "end": "2024-06-17T04:00:00Z",
+        "date": "2025-06-15 00:00:00",
+        "start": "2025-06-15T04:00:00Z",
+        "end": "2025-06-16T04:00:00Z",
         "name": "Father's Day",
         "type": "observance"
       },
       {
-        "date": "2024-06-19 00:00:00",
-        "start": "2024-06-19T04:00:00Z",
-        "end": "2024-06-20T04:00:00Z",
+        "date": "2025-06-19 00:00:00",
+        "start": "2025-06-19T04:00:00Z",
+        "end": "2025-06-20T04:00:00Z",
         "name": "Juneteenth",
         "type": "public"
       },
       {
-        "date": "2024-07-04 00:00:00",
-        "start": "2024-07-04T04:00:00Z",
-        "end": "2024-07-05T04:00:00Z",
+        "date": "2025-07-04 00:00:00",
+        "start": "2025-07-04T04:00:00Z",
+        "end": "2025-07-05T04:00:00Z",
         "name": "Independence Day",
         "type": "public"
       },
       {
-        "date": "2024-09-02 00:00:00",
-        "start": "2024-09-02T04:00:00Z",
-        "end": "2024-09-03T04:00:00Z",
+        "date": "2025-09-01 00:00:00",
+        "start": "2025-09-01T04:00:00Z",
+        "end": "2025-09-02T04:00:00Z",
         "name": "Labor Day",
         "type": "public"
       },
       {
-        "date": "2024-10-14 00:00:00",
-        "start": "2024-10-14T04:00:00Z",
-        "end": "2024-10-15T04:00:00Z",
+        "date": "2025-10-13 00:00:00",
+        "start": "2025-10-13T04:00:00Z",
+        "end": "2025-10-14T04:00:00Z",
         "name": "Columbus Day",
         "type": "public"
       },
       {
-        "date": "2024-10-31 18:00:00",
-        "start": "2024-10-31T22:00:00Z",
-        "end": "2024-11-01T04:00:00Z",
+        "date": "2025-10-31 18:00:00",
+        "start": "2025-10-31T22:00:00Z",
+        "end": "2025-11-01T04:00:00Z",
         "name": "Halloween",
         "type": "observance"
       },
       {
-        "date": "2024-11-05 00:00:00",
-        "start": "2024-11-05T05:00:00Z",
-        "end": "2024-11-06T05:00:00Z",
-        "name": "Election Day",
-        "type": "observance"
-      },
-      {
-        "date": "2024-11-11 00:00:00",
-        "start": "2024-11-11T05:00:00Z",
-        "end": "2024-11-12T05:00:00Z",
+        "date": "2025-11-11 00:00:00",
+        "start": "2025-11-11T05:00:00Z",
+        "end": "2025-11-12T05:00:00Z",
         "name": "Veterans Day",
         "type": "public"
       },
       {
-        "date": "2024-11-28 00:00:00",
-        "start": "2024-11-28T05:00:00Z",
-        "end": "2024-11-29T05:00:00Z",
+        "date": "2025-11-27 00:00:00",
+        "start": "2025-11-27T05:00:00Z",
+        "end": "2025-11-28T05:00:00Z",
         "name": "Thanksgiving Day",
         "type": "public"
       },
       {
-        "date": "2024-11-29 00:00:00",
-        "start": "2024-11-29T05:00:00Z",
-        "end": "2024-11-30T05:00:00Z",
+        "date": "2025-11-28 00:00:00",
+        "start": "2025-11-28T05:00:00Z",
+        "end": "2025-11-29T05:00:00Z",
         "name": "Day after Thanksgiving Day",
         "type": "observance"
       },
       {
-        "date": "2024-12-24 00:00:00",
-        "start": "2024-12-24T05:00:00Z",
-        "end": "2024-12-25T05:00:00Z",
+        "date": "2025-12-24 00:00:00",
+        "start": "2025-12-24T05:00:00Z",
+        "end": "2025-12-25T05:00:00Z",
         "name": "Christmas Eve",
         "type": "optional"
       },
       {
-        "date": "2024-12-25 00:00:00",
-        "start": "2024-12-25T05:00:00Z",
-        "end": "2024-12-26T05:00:00Z",
+        "date": "2025-12-25 00:00:00",
+        "start": "2025-12-25T05:00:00Z",
+        "end": "2025-12-26T05:00:00Z",
         "name": "Christmas Day",
         "type": "public"
       },
       {
-        "date": "2024-12-31 00:00:00",
-        "start": "2024-12-31T05:00:00Z",
-        "end": "2025-01-01T05:00:00Z",
+        "date": "2025-12-31 00:00:00",
+        "start": "2025-12-31T05:00:00Z",
+        "end": "2026-01-01T05:00:00Z",
         "name": "New Year's Eve",
         "type": "observance"
       }
@@ -287,7 +280,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
