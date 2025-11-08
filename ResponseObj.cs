@@ -4,52 +4,55 @@ using Newtonsoft.Json;
 
 namespace APIVerve
 {
-public class holidays
-{
-    [JsonProperty("date")]
-    public string date { get; set; }
+    /// <summary>
+    /// Holidays data
+    /// </summary>
+    public class Holidays
+    {
+        [JsonProperty("date")]
+        public string Date { get; set; }
 
-    [JsonProperty("start")]
-    public DateTime start { get; set; }
+        [JsonProperty("start")]
+        public string Start { get; set; }
 
-    [JsonProperty("end")]
-    public DateTime end { get; set; }
+        [JsonProperty("end")]
+        public string End { get; set; }
 
-    [JsonProperty("name")]
-    public string name { get; set; }
+        [JsonProperty("name")]
+        public string Name { get; set; }
 
-    [JsonProperty("type")]
-    public string type { get; set; }
+        [JsonProperty("type")]
+        public string Type { get; set; }
 
-}
+    }
+    /// <summary>
+    /// Data data
+    /// </summary>
+    public class Data
+    {
+        [JsonProperty("country")]
+        public string Country { get; set; }
 
-public class data
-{
-    [JsonProperty("country")]
-    public string country { get; set; }
+        [JsonProperty("year")]
+        public string Year { get; set; }
 
-    [JsonProperty("year")]
-    public string year { get; set; }
+        [JsonProperty("holidays")]
+        public Holidays[] Holidays { get; set; }
 
-    [JsonProperty("holidays")]
-    public holidays[] holidays { get; set; }
+    }
+    /// <summary>
+    /// API Response object
+    /// </summary>
+    public class ResponseObj
+    {
+        [JsonProperty("status")]
+        public string Status { get; set; }
 
-}
+        [JsonProperty("error")]
+        public object Error { get; set; }
 
-public class ResponseObj
-{
-    [JsonProperty("status")]
-    public string status { get; set; }
+        [JsonProperty("data")]
+        public Data Data { get; set; }
 
-    [JsonProperty("error")]
-    public object error { get; set; }
-
-    [JsonProperty("data")]
-    public data data { get; set; }
-
-    [JsonProperty("code")]
-    public int code { get; set; }
-
-}
-
+    }
 }
